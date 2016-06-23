@@ -1,16 +1,27 @@
+<!DOCTYPE html>
+
 <style>
-#square {
-	width: 100px;
-	height: 100px;
-	background: red;
+#post-map {
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #adc1c7, #a9a9a9);
+    padding: 8px; 
+    width: 600px;
+    height: 510px; 
+}
+
+#title {
+ color: white;
+ font-family: "Arial";
+ margin-left: auto;
+ margin-right: auto;
 }
 </style>
 
-<div class=square><p><big>Map Test</big><br>
+<div id=post-map><p><big id=title>Map</big><br>
 <iframe
   width="600"
   height="450"
   frameborder="0" style="border:0"
   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCREwCnlAHKgh4IxfODCbKVBfLE9wBml4Y
-    &q=Space+Needle,Seattle+WA" allowfullscreen>
+    &q=Space+Needle,Seattle+WA" allowfullscreen style="margin-left:auto;margin-right:auto;" >
 </iframe></p></div>
