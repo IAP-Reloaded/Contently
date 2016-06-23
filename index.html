@@ -6,9 +6,11 @@ document.getElementById("theResult").innerHTML = val;
 }
 </script>
 
-<input type = "text" id = "txt" onblur = "doIt(this.value)">
+<input type = "text" id = "txt">
 <br><br>
 <code id = "theResult"></code>
+
+<button type=button onclick = "doIt(this.value)">Generate HTML</button>
 
 <style>
 body {
