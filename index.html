@@ -4,13 +4,15 @@
 function doIt(val) {
 document.getElementById("theResult").innerHTML = val;
 }
+
+object.addEventListener("generate", doIt(this.value));
 </script>
 
 <input type = "text" id = "txt">
 <br><br>
 <code id = "theResult"></code>
 
-<button type=button onclick="doIt(this.value)">Generate HTML</button>
+<button type=button id="generate" onclick="doIt(this.value)">Generate HTML</button>
 
 <style>
 body {
